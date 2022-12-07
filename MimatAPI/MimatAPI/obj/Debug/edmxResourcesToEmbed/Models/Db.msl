@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MimatdbModelStoreContainer" CdmEntityContainer="MimatEntities">
+    <EntitySetMapping Name="admin_institution">
+      <EntityTypeMapping TypeName="MimatdbModel.admin_institution">
+        <MappingFragment StoreEntitySet="admin_institution">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="institution" ColumnName="institution" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="last_login" ColumnName="last_login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workstation_classrooms">
+      <EntityTypeMapping TypeName="MimatdbModel.workstation_classrooms">
+        <MappingFragment StoreEntitySet="workstation_classrooms">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="cpu" ColumnName="cpu" />
+          <ScalarProperty Name="classroom" ColumnName="classroom" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="inSafeArea" ColumnName="inSafeArea" />
+          <ScalarProperty Name="lastUpdate" ColumnName="lastUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

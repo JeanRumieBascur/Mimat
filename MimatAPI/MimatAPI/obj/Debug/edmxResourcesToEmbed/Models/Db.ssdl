@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MimatdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin_institution">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="institution" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="mail" Type="varchar" MaxLength="240" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="created_at" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="last_login" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="workstation_classrooms">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="model" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="cpu" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="classroom" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="location" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="inSafeArea" Type="int" Nullable="false" />
+    <Property Name="lastUpdate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MimatdbModelStoreContainer">
+    <EntitySet Name="admin_institution" EntityType="Self.admin_institution" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="workstation_classrooms" EntityType="Self.workstation_classrooms" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

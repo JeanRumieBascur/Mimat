@@ -1,0 +1,66 @@
+﻿@model MimatAPI.Models.workstation_classrooms
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>workstation_classrooms</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cpu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cpu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.classroom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.classroom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.inSafeArea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.inSafeArea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastUpdate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastUpdate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

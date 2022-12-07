@@ -1,0 +1,17 @@
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\MimatLocation.exe.config
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\MimatLocation.exe
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\MimatLocation.pdb
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\obj\Debug\MimatLocation.csproj.AssemblyReference.cache
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\obj\Debug\MimatLocation.csproj.CoreCompileInputs.cache
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\obj\Debug\MimatLocation.csproj.CopyComplete
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\obj\Debug\MimatLocation.exe
+C:\Users\JeanRB\Documents\MIMAT\MimatLocation\MimatLocation\obj\Debug\MimatLocation.pdb
