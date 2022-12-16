@@ -1,0 +1,47 @@
+.h3{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    
+}
+.div{
+    text-align: left;
+    width: 100%;
+    min-width: 900px;
+    margin-bottom: 30px;
+    
+}
+.a{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 15px;
+    
+}
+.a:hover{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .div{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .h3{
+        text-align: center;
+        float: none;
+        font-size: 23px;
+    }
+    .a{
+        font-size: 12px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}

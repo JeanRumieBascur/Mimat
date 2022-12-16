@@ -4,15 +4,25 @@ import logo from './logo.svg';
 import './App.css';
 import {LOADIPHLPAPI} from "dns";
 import Login from "./login/Login";
+import Navbar from './Navbar/Navbar';
+import TextTitle from "./utils/TextTitle";
+import Table from "./Table/Table";
 
 
 function App() {
   return (
-    <div className="App">
+   <>
+
+    <Navbar></Navbar>
+
+
       <header className="App-header">
-        <Login></Login>
-      </header>
-    </div>
+      
+      <Table></Table>
+
+     </header>
+      
+    </>
   );
 }
 

@@ -11,16 +11,13 @@ export  default  function Login(){
             <Formik initialValues={
     {nombre: ''}
 } onSubmit={values => {console.log(values)}} >
-    <Form>
-        <div className={css.div}>
-
-        </div>
-
+    <Form className={css.form}>
+        
         <div className="form-group">
-            <label htmlFor="nombre">Email</label>
-            <Field name="nombre" className="form-control" />
-            <label htmlFor="contraseña">Contraseña</label>
-            <Field name="contraseña" className="form-control" />
+            <label htmlFor="nombre" className={css.label}>Email</label> <br/>
+            <Field name="nombre" className={css.field}/> <br/>
+            <label htmlFor="contraseña" className={css.label}>Contraseña</label><br/>
+            <Field name="contraseña" className={css.field}/>
         </div>
         </Form>
 
